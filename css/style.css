@@ -8,6 +8,13 @@ p {
     margin: 8px 0;
 }
 
+.accent {
+    color: rgb(2, 175, 175);
+}
+.dark {
+    color: black;
+}
+
 .container {
     display: flex;
    width: 80%;
@@ -89,8 +96,7 @@ li {
     display: flex;
     margin-right: 3rem;
 }
-
-#contact {
+li:nth-child(1) {
     margin-left: auto;
 }
 
@@ -120,7 +126,7 @@ h4 {
     .menu {
         position: relative;
       }
-      li, #contact {
+      li, li:nth-child(1) {
           display: inline-flex;
           margin: 0px 0px 20px 0px;
           justify-content: center;
